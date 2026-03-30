@@ -1,16 +1,142 @@
-# React + Vite
+# 💉 Moun Health Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web/mobile-first desenvolvida para acompanhar a jornada de pacientes em uso de **Mounjaro (tirzepatida)**, com foco em **emagrecimento, saúde, nutrição e evolução corporal**.
 
-Currently, two official plugins are available:
+O app oferece uma experiência completa de acompanhamento com **registro de medicação, rodízio de aplicação, controle nutricional, hidratação, sintomas, treinos, fotos de evolução e progresso de peso**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Acesse o projeto online:** https://moun-health-tracker.netlify.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Funcionalidades
 
-## Expanding the ESLint configuration
+### Onboarding inteligente
+- Cadastro inicial do usuário
+- Idade, peso, altura e meta
+- Cálculo automático de:
+  - IMC
+  - Gasto calórico diário (TDEE)
+  - Meta de proteína
+  - Meta de água
+- Configuração de dose do Mounjaro
+- Dia e horário da aplicação
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### Controle de medicação
+- Registro da dose atual
+- Histórico de aplicações
+- Sistema de **rodízio inteligente dos locais de aplicação**
+- Sugestão automática do próximo local
+- Controle de dose por semana
+
+---
+
+### Nutrição
+- Registro manual de refeições
+- Busca de alimentos via **Open Food Facts API**
+- Base local com alimentos caseiros (TACO)
+- Cálculo automático por gramas
+- Controle de:
+  - calorias
+  - proteínas
+  - carboidratos
+  - gorduras
+- Barra de progresso diário
+
+---
+
+### Hidratação
+- Meta de água personalizada por peso corporal
+- Botões rápidos para adicionar consumo
+- Barra visual de progresso
+- Reset diário
+
+---
+
+### Saúde e rotina
+- Registro de sintomas
+- Controle de treino diário
+- Registro de duração
+- Medidas corporais
+- Upload de fotos de evolução
+- Histórico de treinos
+
+---
+
+### Progresso
+- Evolução do peso
+- Comparação:
+  - peso inicial
+  - peso atual
+  - peso meta
+- Barra de progresso percentual
+- Histórico visual do peso
+- Classificação automática do IMC
+
+---
+
+## Tecnologias utilizadas
+
+- **React.js**
+- **Vite**
+- **JavaScript**
+- **CSS3**
+- **LocalStorage**
+- **Lucide React**
+- **Open Food Facts API**
+- **Netlify**
+
+---
+
+## Diferenciais do projeto
+
+- Mobile-first
+- Interface moderna e intuitiva
+- Experiência semelhante a app nativo
+- Dados persistidos no navegador
+- Foco real em pacientes que usam Mounjaro
+- Design voltado para saúde e bem-estar
+- Fluxo completo de acompanhamento diário
+
+---
+
+## Objetivo do projeto
+
+Este projeto foi criado como um **produto digital de saúde e acompanhamento pessoal**, ajudando usuários a manterem consistência durante o tratamento com Mounjaro através de dados práticos e visualização da evolução.
+
+Além disso, o projeto demonstra habilidades em:
+
+- arquitetura de componentes React
+- gerenciamento de estado
+- persistência de dados
+- integração com API externa
+- experiência do usuário (UX)
+- design de interface mobile
+
+---
+
+## Preview
+
+<img width="300" alt="Moun Health Tracker Preview" src="https://moun-health-tracker.netlify.app/" />
+
+---
+
+## Próximas melhorias
+- autenticação de usuários
+- backup em nuvem
+- notificações de aplicação
+- dashboard com gráficos avançados
+- exportação PDF do progresso
+- integração com smartwatch
+- cálculo de macros por objetivo
+- lembretes de hidratação
+
+---
+
+## Desenvolvido por
+
+**Ana Beatriz Cerqueira**  
+Estudante de Engenharia de Software | Front-end & Product Builder
+
+Projeto desenvolvido para portfólio e uso pessoal.
