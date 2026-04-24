@@ -6,9 +6,8 @@ import {
   Frown, Meh, Smile, AlertCircle, Lightbulb, Target, X, Plus, Minus
 } from "lucide-react";
 
-// Aqui está a alteração dos locais de aplicação!
 const INJECTION_SITES = ["Barriga Direita", "Barriga Esquerda", "Coxa Direita", "Coxa Esquerda", "Braço Direito", "Braço Esquerdo"];
-const DOSES = ["2.5mg", "5mg", "7.5mg", "10mg", "12.5mg", "15mg"];
+const DOSES = ["2mg", "2.5mg", "5mg", "7.5mg", "10mg", "12.5mg", "15mg"];
 const ACTIVITY_LEVELS = [
   { value: "sedentary", label: "Sedentário", desc: "Pouco ou nenhum exercício", multiplier: 1.2 },
   { value: "light", label: "Leve", desc: "Exercício 1-3x por semana", multiplier: 1.375 },
@@ -182,7 +181,8 @@ function Onboarding({ onComplete }) {
   const [profile, setProfile] = useState({
     name: "", age: "", gender: "female", height: "", weight: "",
     activityLevel: "light", goalWeight: "", focus: "weight_loss",
-    dose: "2.5mg", injectionDay: 1, injectionTime: "08:00",
+    dose: "2mg", 
+    injectionDay: 1, injectionTime: "08:00",
   });
 
   const set = (k, v) => setProfile(p => ({ ...p, [k]: v }));
